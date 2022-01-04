@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+
+.container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.card {
+  display: flex;
+  height: 42.2rem;
+  width: 105.3rem;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.card-text {
+  flex: 1;
+}
+
+.card-image {
+  flex: 0.95;
+}
+
+.card-image img {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 5rem;
+}
