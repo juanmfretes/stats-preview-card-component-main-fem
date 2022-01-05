@@ -17,34 +17,37 @@ body {
 
 .container {
   display: flex;
-  position: relative;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   min-height: 100vh;
   background-color: hsl(233, 47%, 7%);
 }
 
 .card {
-  display: flex;
-  height: 42.2rem;
-  width: 105.3rem;
+  display: grid;
+  /* position: relative; */
+  /* margin: 0 15.6rem; */
+  max-width: 105.3rem;
+  grid-template-columns: 1.055fr 1fr;
+  grid-template-rows: 42.2rem;
+
   background-color: hsl(244, 38%, 16%);
   overflow: hidden;
   border-radius: 0.8rem;
+  margin-top: 2.1rem;
+  /* margin-bottom: auto; */
 }
 
 .card-text {
-  flex: 1;
-  max-width: 54rem;
-  /* FIX: ver cómo se puede eliminar esta línea. Comparar lo que hizo Jonas con tu código del CTA section. NOTE: ENTENDER POR QUÉ OCURRE ESTE ERROR*/
-  padding: 6.9rem 10.6rem 6.9rem 6.9rem;
+  padding: 6.7rem 10.6rem 6.2rem 6.9rem;
   font-family: "Inter", sans-serif;
 }
 
 h1 {
   font-size: 3.4rem;
-  line-height: 1.2;
-  margin-bottom: 2.3rem;
+  line-height: 1.23;
+  margin-bottom: 2.33rem;
 }
 
 .accent {
@@ -54,9 +57,9 @@ h1 {
 .main-text {
   font-size: 1.4rem;
   color: hsla(0, 0%, 100%, 0.75);
-  line-height: 1.73;
+  line-height: 1.7;
   letter-spacing: 0.1px;
-  margin-bottom: 7rem;
+  margin-bottom: 7.1rem;
 }
 
 .stats-box {
@@ -90,7 +93,8 @@ h1 {
 }
 
 .card-image {
-  flex: 0.95;
+  /* flex: 0.95;
+  max-width: 51.3rem; */
   background-image: linear-gradient(
       hsla(274, 93%, 30%, 0.6),
       hsla(274, 93%, 30%, 0.6)
@@ -107,6 +111,5 @@ h1 {
 }
 
 footer {
-  position: absolute;
-  bottom: 5rem;
+  padding: 0.5rem 0;
 }
