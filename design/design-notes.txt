@@ -3,3 +3,6 @@ Height: 446px
 
 margin-top ~ 165px
 margin-left ~ 177px
+
+For Responsive Design
+Media query at 1062px
