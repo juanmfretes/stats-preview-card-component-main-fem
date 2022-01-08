@@ -1,6 +1,50 @@
-/*
-1062px / 16 = 66em
-*/
+/*INTERMEDIATE STATE: 1064px / 16 = 66.5em*/
+@media (max-width: 66.5em) {
+  .card {
+    grid-template-columns: 51rem;
+    grid-template-rows: 37.43rem auto;
+  }
 
-@media (max-width: 66em) {
+  .card-text {
+    padding: 6.8rem;
+  }
+
+  .stats-box {
+    justify-content: center;
+  }
+
+  .card-image {
+    grid-row: 1;
+    background-image: linear-gradient(
+        hsla(274, 93%, 30%, 0.6),
+        hsla(274, 93%, 30%, 0.6)
+      ),
+      url(images/image-header-mobile.jpg);
+    background-size: cover;
+  }
+}
+
+/* SMALL STATE: 544px / 16 = 34rem */
+@media (max-width: 34rem) {
+  .card {
+    grid-template-columns: 32.7rem;
+    grid-template-rows: 24rem auto;
+  }
+
+  .card-text {
+    padding: 3.9rem 3.5rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+  }
+
+  .main-text {
+    margin-bottom: 5.8rem;
+  }
+
+  .stats-box {
+    flex-direction: column;
+  }
 }
