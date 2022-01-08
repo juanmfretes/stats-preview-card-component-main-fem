@@ -26,17 +26,13 @@ body {
 
 .card {
   display: grid;
-  /* position: relative; */
-  /* margin: 0 15.6rem; */
   max-width: 105.3rem;
   grid-template-columns: 1.055fr 1fr;
   grid-template-rows: 42.2rem;
-
   background-color: hsl(244, 38%, 16%);
   overflow: hidden;
   border-radius: 0.8rem;
   margin-top: 2.1rem;
-  /* margin-bottom: auto; */
 }
 
 .card-text {
@@ -93,8 +89,6 @@ h1 {
 }
 
 .card-image {
-  /* flex: 0.95;
-  max-width: 51.3rem; */
   background-image: linear-gradient(
       hsla(274, 93%, 30%, 0.6),
       hsla(274, 93%, 30%, 0.6)
