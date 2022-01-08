@@ -27,9 +27,9 @@ body {
 
 .card {
   display: grid;
-  max-width: 105.3rem;
+  max-width: 111rem;
   grid-template-columns: 1.055fr 1fr;
-  grid-template-rows: 42.2rem;
+  grid-template-rows: 44.6rem;
   background-color: hsl(244, 38%, 16%);
   overflow: hidden;
   border-radius: 0.8rem;
@@ -37,13 +37,14 @@ body {
 }
 
 .card-text {
-  padding: 6.7rem 10.6rem 6.2rem 6.9rem;
+  padding: 7.2rem 10.6rem 6.2rem 7.2rem;
   font-family: "Inter", sans-serif;
 }
 
 h1 {
-  font-size: 3.4rem;
-  line-height: 1.23;
+  font-size: 3.58rem;
+  line-height: 1.24;
+  letter-spacing: 0.09px;
   margin-bottom: 2.33rem;
 }
 
@@ -52,26 +53,25 @@ h1 {
 }
 
 .main-text {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: hsla(0, 0%, 100%, 0.75);
-  line-height: 1.7;
-  letter-spacing: 0.1px;
-  margin-bottom: 7.1rem;
+  line-height: 1.68;
+  margin-bottom: 7.4rem;
 }
 
 .stats-box {
   display: flex;
-  gap: 6rem;
+  gap: 6.4rem;
 }
 
 .stat {
   display: flex;
   flex-direction: column;
-  row-gap: 0.9rem;
+  row-gap: 1rem;
 }
 
 .stats-number {
-  font-size: 2.24rem;
+  font-size: 2.4rem;
   font-family: "Inter", sans-serif;
   font-weight: 700;
 }
@@ -84,9 +84,9 @@ h1 {
   text-transform: uppercase;
   font-family: "Lexend Deca", sans-serif;
   color: hsla(0, 0%, 100%, 0.6);
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   font-weight: 400;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.3px;
 }
 
 .card-image {
